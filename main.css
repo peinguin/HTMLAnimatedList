@@ -1,0 +1,47 @@
+#wrapper{
+    position:absolute;
+    left:10%;
+    top:10%;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background: rgba(255,255,255,0.85);
+}
+#main, #selector{
+    -webkit-transition: all 250ms linear 0.5s;
+    -moz-transition:    all 250ms linear 0.5s;
+    -o-transition:      all 250ms linear 0.5s;
+    transition:         all 250ms linear 0.5s;
+    position: absolute;
+    top: 0px;
+}
+#main{
+    z-index: 2;
+}
+#selector{
+    background-image: url('img/selector.png');
+    z-index: 1;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#main div{
+    overflow: hidden;
+}
+span{
+    font-family: 'Verdana';
+    color: white;
+    display: inline-block;
+}
+.first{
+    font-family: 'Georgia';
+    font-size: 20px;
+    width: 20%;
+    margin-left: 5%;
+}
+.second{
+    font-size: 30px;
+    width: 30%;
+}
+.third{
+    font-size: 25px;
+}
